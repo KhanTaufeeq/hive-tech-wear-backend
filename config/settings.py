@@ -29,15 +29,12 @@ SECRET_KEY = 'django-insecure-jheqnti15uce*tc%$l0cbj1laomsfav^b+-wg0w1y)sl!m^%_$
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-<<<<<<< HEAD
 ALLOWED_HOSTS = ["*"]
 X_FRAME_OPTIONS = '*'
 CORS_ORIGIN_ALLOW_ALL = True
 CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:8000/']
-=======
 ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = True
->>>>>>> 0654536286433fa72746126b74b945139941549a
 
 
 # Application definition
@@ -134,17 +131,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 cloudinary.config(
-<<<<<<< HEAD
   cloud_name = "dyfjwdfxo",
   api_key = "668667182126326",
   api_secret = "FX6g_lPE5pkM0XM6IcnzkmH1tU8",
   secure = True
-=======
-    cloud_name="techis",
-    api_key="886187759951178",
-    api_secret="WGcWrWfkPlxdOCdlFaLTdjSNtfo",
-    secure=True
->>>>>>> 0654536286433fa72746126b74b945139941549a
 )
 
 
